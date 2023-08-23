@@ -1,0 +1,20 @@
+#portal {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    box-shadow: 3px 3px 18px -2px rgba(200,200,200,0.2);
+}
+
+label {
+    font-size: 12px;
+    margin-bottom: -10px;
+    color: brown;
+}
+body {
+    background-color: #f6e47c;
+    background-image: url(../res/ast/back3.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}

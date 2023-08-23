@@ -1,0 +1,49 @@
+#archive-container {
+    width: 800px;
+    float: right;
+    background-color: #fff; 
+    border-radius: 3px;
+}
+
+#tbl-styles   {
+    width: 760px;
+    margin: 10px 20px;
+    display: none;
+}
+
+#tbl-styles tr td, #tbl-users tr td {
+    color: brown;
+    padding: 10px 0px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.search-head {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 4px 0;
+}
+
+.search-opt {
+    font-size: 12px;
+    width: 85%;
+    padding: 4px 12px;
+    margin: 4px 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-opt:hover {
+    color: brown;
+}
+
+.search-opt input {
+/*    outline: none;*/
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 0 5px;
+    margin: 0;
+    float: right;
+    width: 90px;
+}

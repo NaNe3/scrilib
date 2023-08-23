@@ -1,0 +1,95 @@
+.tag-cont {
+    width: 100%;
+    min-height: 32px;
+}
+
+.tag {
+    font-size: 12px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 4px 6px;
+    line-height: 16px;
+    margin: 4px 8px 4px 0px;
+    display: inline-block;
+}
+
+.search-cat-cont {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.search-head {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 4px 0;
+}
+
+.search-opt {
+    font-size: 12px;
+    width: 85%;
+    padding: 4px 12px;
+    margin: 0 0 4px 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-opt:hover {
+    color: brown;
+}
+
+.search-opt input {
+/*    outline: none;*/
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    padding: 0 5px;
+    margin: 0;
+    float: right;
+    width: 90px;
+}
+
+.portCom {
+    width: 590px;
+    min-height: 100px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.portImg {
+    width: 100px;
+    height: 80px;
+    border: 1px solid brown;
+    border-radius: 3px;
+    margin: 10px 20px 10px 10px;
+    overflow: hidden;
+    float: left;
+    position: sticky;
+    top: 70px;
+}
+
+.portImg img {
+    width: 100px;
+}
+
+.comBar {
+    display: block;
+/*    float: left;*/
+    width: 100%;
+    margin: 10px 10px 10px 130px;
+    height: 10px;
+}
+
+.subText {
+    font-size: 14px;
+    float: left;
+    color: #666;
+    margin: 0px 15px 0px 0px;
+    text-decoration: none;
+}
+
+.comBar a:hover {
+    text-decoration: underline;
+}

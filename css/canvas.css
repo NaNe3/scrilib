@@ -1,0 +1,160 @@
+#drawContainer {
+    width: 750px;
+    height: 500px;
+    border: 1px solid #bbb;
+    background-color: white;
+    box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
+}
+
+#tabBar {
+    height: 50px;
+    background-color: #eee;
+    border-bottom: 1px solid #bbb;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#canvView {
+    width: 1000px;
+    margin: 100px auto 0px auto;
+}
+
+#right {
+    float: right;
+    width: 225px;
+}
+
+.box {
+    width: 225px;
+    height: 250px;
+    border: 1px solid #bbb;
+    float: right;
+    margin-right: 8px;
+    background-color: white;
+    box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
+}
+
+#colors {
+    margin: 10px;
+}
+
+.color {
+    width: 23px;
+    height: 23px;
+    border: 1px solid brown;
+    border-radius: 2px;
+    cursor: pointer;
+    float: left;
+    margin: 1px;
+}
+
+.color:hover {
+    border: 1px solid black;
+}
+
+.c1 {
+    background-color: brown;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: auto 7px;
+}
+
+.c2 {
+    background-color: white;
+    color: brown;
+    padding: 8px 16px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid brown;
+    cursor: pointer;
+    margin: auto 10px;
+}
+
+select {
+    height: 32px;
+    border: 1px solid brown;
+    color: brown;
+    border-radius: 3px;   
+}
+
+/*CANVAS CSS STUFFF*/
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+#paint-app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+/* For any shape tools that need a live preview */
+.placeholder {
+  position:absolute;
+  z-index:999;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 600px;
+    max-height: 550px;
+    overflow: hidden;
+    border-radius: 5px;
+/*    overflow: auto;*/
+    position: relative;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*END*/
+
+#action {
+    position: absolute;
+    bottom: 20px;
+}
+
+label {
+    font-size: 11px;
+    color: #999;
+    margin-left: 10px;
+}

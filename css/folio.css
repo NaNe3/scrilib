@@ -1,0 +1,87 @@
+.hover:hover {
+    border: 1px solid brown;
+}
+
+#usrFng:hover {
+    background-color: brown;
+    color: white;
+}
+
+#usrFng:after {
+    content: "Following"
+}
+
+#usrFng:hover:after{
+    content: 'Unfollow';
+}
+
+#folSelection {
+    border-radius: 3px;
+    border: 0px;
+    margin-top: -5px;
+    height: 35px;
+    z-index: 100;
+}
+
+#folSelection p {
+    padding: 10px 20px 5px 20px;
+    margin: 0px;
+    margin-top: -4px;
+    float: left;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+#folSelection p:hover {
+/*
+    background-color: #eee;
+    border-bottom: 2px solid #eee;
+*/
+    color: brown;
+}
+
+.portCom {
+    width: 590px;
+    min-height: 100px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.portImg {
+    width: 100px;
+    height: 80px;
+    border: 1px solid brown;
+    border-radius: 3px;
+    margin: 10px 20px 10px 10px;
+    overflow: hidden;
+    float: left;
+    position: sticky;
+    top: 117px;
+}
+
+.portImg img {
+    width: 100px;
+}
+
+.comBar {
+    display: block;
+/*    float: left;*/
+    width: 100%;
+    margin: 10px 10px 10px 130px;
+    height: 10px;
+}
+
+.subText {
+    font-size: 14px;
+    float: left;
+    color: #666;
+    margin: 0px 15px 0px 0px;
+    text-decoration: none;
+}
+
+.comBar a:hover {
+    text-decoration: underline;
+}

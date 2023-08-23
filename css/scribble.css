@@ -1,0 +1,265 @@
+.imgView img {
+    border: 1px solid #bbb;
+    border-radius: 0px 0px 3px 3px;
+    width: 698px;
+    background-color: white;
+    margin-top: 8px;
+}
+
+#scriView {
+    width: 1000px;
+/*    margin: 100px auto 0px auto;*/
+    left: 50%;
+    margin-left: -500px;
+}
+
+#vote {
+    float: left;
+    margin-top: 6px;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+#vote img {
+    width: 25px;
+    cursor: pointer;
+    margin-right: -10px;
+    background-color: #bbb;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#img2 {
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari 3-8 */
+}
+
+#vote #img1:hover {
+    background-color: orangered;
+}
+
+#vote #img2:hover {
+    background-color: royalblue;
+}
+
+.imgBar {
+    width: 698px;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    height: 50px;
+    margin-bottom: -10px;
+    float: left;
+    border-radius: 3px 3px 0px 0px;
+    position: sticky;
+    top: 0px;
+    margin-top: 3px;
+}
+
+.imgView {
+    float: left;
+    width: 700px;
+    overflow: hidden;
+}
+
+.right {
+    float: right;
+    width: 280px;
+    margin-top: 3px;
+    position: sticky;
+    top: -5000000000px; /*-343*/
+    border: 0px;
+    background-color: rgb(250, 250, 250);
+}
+
+.box {
+    width: 225px;
+    height: 250px;
+    border: 1px solid #bbb;
+    float: right;
+    margin-right: 8px;
+    background-color: white;
+    box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
+}
+
+#scribs {
+    max-height: 480px;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+    box-sizing: content-box;
+    background-color: #eee;
+}
+
+/*GALLERY*/
+.gallBox {
+    height: 70px;
+    background-color: rgb(250,250,250);
+    width: 100%;
+    border-radius: 3px;
+    padding-top: 1px;
+    cursor: pointer;
+    margin: 10px 8px;
+/*    border: 1px solid #bbb;*/
+}
+
+.gallBox:hover {
+/*    border: 1px solid brown;*/
+    background-color: white;
+}
+
+.gallBox p {
+    float: left;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #666;
+    display: inline;
+    white-space: nowrap;
+    max-width: 140px;
+    overflow: hidden;
+}
+
+.imgCont {
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    margin: 4px 5px;
+    float: left;
+    overflow: hidden;
+}
+
+.imgCont img {
+    width: 100%;
+}
+
+#comment {
+    width: 698px;
+    float: left;
+    border-radius: 3px;
+    background-color: white;
+    margin: 30px 0px -30px 0px;
+    position: relative;
+    border: 1px solid #bbb;
+}
+
+.comMent {
+    min-height: 120px;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    position: relative;
+    padding: 0px 20px 0px 0px;
+}
+
+#comment textarea, .comMent textarea {
+    resize: none;
+    border: 0;
+    height: 80px;
+    font-family: sans-serif;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#comments {
+    width: 698px;
+    float: left;
+/*    border-radius: 0px 0px 3px 3px;*/
+/*    background-color: white;*/
+/*    border: 1px solid #bbb;*/
+    
+    margin: 30px 0px 20px 0px;
+    padding-bottom: 10px;
+}
+
+#cHead * {
+    color: #999;
+}
+
+.com {
+    margin-bottom: 10px;
+}
+
+.comCont {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+
+.comCont p {
+    margin: 0px 10px;
+}
+
+.comBar {
+    display: block;
+    width: 100%;
+    margin: 10px;
+    height: 10px;
+}
+
+.subText {
+    font-size: 14px;
+    float: left;
+    color: #666;
+    margin: 0px 5px 0px 0px;
+    text-decoration: none;
+}
+
+.comBar a:hover {
+    text-decoration: underline;
+}
+
+.opt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*
+.com p {
+    font-size: 14px;
+}
+
+.comBar {
+    display: block;
+    width: 100%;
+    margin-bottom: 37px;
+    border: 1px solid white;
+    margin: 0px;
+    height: 10px;
+}
+
+.subTextA {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.subText, .subTextA {
+    font-size: 11px;
+    float: left;
+    color: #666;
+    margin: 0px 20px 0px 0px;
+}
+*/
+
+.close {
+  color: #aaa;
+    position: absolute;
+    top: 0px;
+    right: 7px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: brown;
+  text-decoration: none;
+  cursor: pointer;
+}
